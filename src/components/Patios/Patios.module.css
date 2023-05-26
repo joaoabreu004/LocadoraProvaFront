@@ -1,0 +1,20 @@
+.patio{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: max-content max-content max-content max-content max-content;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-rows: 33.3% 33.3% 33.3%
+
+}
+
+.patios{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
